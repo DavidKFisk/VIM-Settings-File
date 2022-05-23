@@ -13,7 +13,10 @@ set ruler
 
 "Show Line Numbers
 set number
+
+"Line numbered by its distance from the cursor
 set relativenumber
+
 set autoindent
 set expandtab
 set cursorline
@@ -23,6 +26,8 @@ set colorcolumn=+1
 set shiftwidth=4
 set softtabstop=4
 set tabstop=4
+
+"0: never 1: only if there are at least two windows (default) 2: always
 set laststatus=2
 
 "Searching
